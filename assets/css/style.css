@@ -1,0 +1,330 @@
+/* ======== header ======== */
+
+header {
+    .top-header {
+        background-color: #000;
+        position: relative;
+
+        .main-top-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: #fff;
+        }
+
+        .top-tagline {
+            position: relative;
+            padding: 13px 50px 13px 0px;
+            line-height: 24px;
+            background: #d4af37;
+        }
+
+        .top-tagline P {
+            position: relative;
+            z-index: 1;
+        }
+
+        .top-tagline::before {
+            content: '';
+            position: absolute;
+            right: -20px;
+            top: 0px;
+            background: #d4af37;
+            height: 100%;
+            width: 2000px;
+            -webkit-transform: skewX(20deg);
+            -ms-transform: skewX(20deg);
+            -o-transform: skewX(20deg);
+            -moz-transform: skewX(20deg);
+            transform: skewX(20deg);
+        }
+
+        .limo-details ul {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+
+        a {
+            color: #fff;
+        }
+
+        .limo-details a {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+    }
+
+    .bottom-header {
+        background: linear-gradient(243deg, rgba(61, 16, 47, 1) 27%, rgba(35, 15, 27, 1) 100%);
+        padding: 15px 0px;
+
+        .main-bottom-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            width: 30%;
+        }
+
+        .logo img {
+            max-width: 75%;
+        }
+
+        .primary-menu {
+            display: flex;
+            align-items: center;
+            width: 70%;
+            justify-content: end;
+        }
+
+        nav ul {
+            display: flex;
+            align-items: center;
+
+        }
+
+        nav a {
+            font-size: 20px;
+            padding: 10px 15px 0px;
+        }
+
+        a {
+            color: #fff;
+        }
+
+
+    }
+}
+
+/* ====== banner ========= */
+
+.hero-section {
+    position: relative;
+
+    .slider-imgs {
+
+        .item {
+            img {
+                width: 100%;
+            }
+        }
+    }
+
+    .main-hero-section {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        z-index: 1;
+    }
+
+    .banner-content {
+        text-align: center;
+        width: 100%;
+        max-width: 70%;
+        padding: 25px;
+        margin: 0 auto;
+        display: flex;
+        /* align-items: center; */
+        flex-direction: column;
+        gap: 20px;
+        color: #fff;
+    }
+}
+
+/* =========== feature ========= */
+
+.feature {
+    padding: 50px 0px;
+
+    .main-feature {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        grid-gap: 20px;
+        align-items: stretch;
+    }
+
+    .item {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .item .icon {
+        position: relative;
+    }
+
+    .item .icon span {
+        z-index: -1;
+        width: 58px;
+        height: 58px;
+        bottom: 12px;
+        right: 112px;
+        position: absolute;
+        border-radius: 999px;
+        background-color: #EAECEE;
+    }
+
+    .item img {
+        width: 80px;
+    }
+
+
+}
+
+/* ========== about us ========= */
+
+.about-us {
+
+    .main-about-us {
+        display: flex;
+        gap: 40px;
+    }
+
+    .about-us-img {
+        position: relative;
+        width: 50%;
+    }
+
+    img {
+        border-radius: 10px;
+    }
+
+    .img01 {
+        width: 80%;
+    }
+
+    .img02 {
+        width: 50%;
+        position: absolute;
+        bottom: -50px;
+        right: 0;
+    }
+
+    .about-us-content {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .call-col {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+
+        img {
+            width: 70px;
+        }
+    }
+
+    .number-call {
+        a {
+            font-size: 30px;
+            font-weight: 700;
+            color: #000;
+        }
+    }
+
+}
+
+/* ======= services ========= */
+
+.services{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../upload/banner.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+text-align: center;
+color: #fff;
+
+.main-services{
+    margin-top: 50px;
+}
+.service-content{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.item{
+    background-color: #f7f7f747;
+    padding: 20px;
+    border-radius: 16px;
+    backdrop-filter: blur(5px);
+    cursor: pointer;
+
+    img{
+        transition: all .2s linear;
+    }
+    .item-img{
+        width: 100%;
+        display: flex;
+        overflow: hidden;
+        border-radius: 8px;
+    }
+
+.item-content{
+    color: #ededed;
+    margin-top: 20px;
+}    
+  
+}
+
+.item:hover img{
+    transform: scale(1.1);
+}
+
+.primary-btn{
+    margin-top: 40px;
+
+}
+}
+
+/* ======== fleet ========= */
+
+.fleet{
+    .fleet-content{
+        text-align: center;
+    }
+    .main-fleet{
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+        grid-gap: 50px;
+        align-items: stretch;
+        margin-top: 50px;
+    }
+
+    .item{
+        text-align: center;
+        img{
+            width: 90%;
+        }
+    }
+    .primary-btn{
+        margin-top: 20px;
+    }
+    .second-btn{
+        margin-top: 70px;
+        text-align: center;
+        button{
+            background: transparent;
+            border: 1px solid #d4af37;
+            color: #000;
+        }
+
+    }
+
+    .second-btn button:hover{
+        background-color: #d4af37;
+        color: #fff;
+    }
+}
