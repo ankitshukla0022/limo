@@ -88,7 +88,7 @@
                 flex-direction: column;
                 padding: 150px 20px;
                 position: fixed;
-                background: #fff;
+                background: linear-gradient(243deg, rgba(61, 16, 47, 1) 27%, rgba(35, 15, 27, 1) 100%);
                 width: 100%;
                 max-width: 300px;
                 right: -100%;
@@ -96,12 +96,16 @@
                 transition: all .4s ease-in;
                 z-index: 1;
                 height: 100vh;
-
+justify-content: start;
                 transition: .5s;
 
                 ul {
                     flex-direction: column;
                     gap: 15px;
+                }
+                
+                .menu-icon{
+                    color: #fff;
                 }
 
                 nav {
@@ -114,7 +118,7 @@
                     }
 
                     ul a {
-                        color: #474747;
+                        color: #ffffff;
                     }
                 }
 
@@ -133,10 +137,11 @@
                 width: 40px;
                 z-index: 9;
                 font-size: 24px;
+                color: #d4af37;
             }
 
             .fa-bars {
-                color: #fff;
+                color: #d4af37;
             }
         }
 
@@ -360,6 +365,35 @@
    }
 }
 
+@media only screen and (max-width: 400px){
+h1{
+    font-size: 25px;
+}
+
+h3{
+    font-size: 25px;
+}
+.container{
+    padding: 0px 15px;
+}
+.testimonial {
+    .testimonial-items {
+        width: 95%;
+    }
+    .item {
+         .google-img {
+            img {
+                width: 140px;
+            }
+        }
+        .t-bottom {
+            img {
+                width: 60px;
+            }
+        }
+    }
+}
+}
 
 
 

@@ -244,7 +244,7 @@ header {
 /* ======= services ========= */
 
 .services{
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../upload/banner.jpg);
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../upload/other/service-banner.jpg);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -341,7 +341,7 @@ color: #fff;
 
     .testimonial-img{
         width: 50%;
-        background: url(../upload/banner.jpg);
+        background: url(../upload/other/testimonial-banner.jpg);
         background-position: center;
         background-size: cover;
 
