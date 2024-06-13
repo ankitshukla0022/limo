@@ -143,7 +143,8 @@ header {
 
 .feature {
     padding: 50px 0px;
-
+    background: #341028;
+    color: #fff;
     .main-feature {
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
@@ -326,5 +327,129 @@ color: #fff;
     .second-btn button:hover{
         background-color: #d4af37;
         color: #fff;
+    }
+}
+
+/* =========== testimonial ======== */
+
+.testimonial{
+    display: flex;
+
+    .testimonial-img{
+        width: 50%;
+        background: url(../upload/banner.jpg);
+        background-position: center;
+        background-size: cover;
+
+        background-repeat: no-repeat;
+    }
+    .testimonial-content{
+        width: 50%;
+        padding: 50px 0px;
+    }
+
+    h3{
+        text-align: center;
+    }
+    .testimonial-items{
+        width: 70%;
+        margin: 60px auto 0;
+    }
+    .item{
+        .google-img{
+            img{
+                width: 200px;
+            }
+        }
+        .t-bottom{
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            img{
+                width: 80px;
+            }
+            .author{
+                font-size: 24px;
+                font-weight: 700;
+            }
+        }
+    }
+}
+
+/* ========= footer ========= */
+
+.footer{
+    background: linear-gradient(243deg, rgba(61, 16, 47, 1) 27%, rgba(35, 15, 27, 1) 100%);
+
+    .top-footer{
+        padding: 60px 0px;
+
+        .main-top-footer{
+            display: flex;
+            text-align: center;
+            color: #fff;
+        }
+        a{
+            color: #fff;
+        }
+
+        .quick-link{
+            width: 30%;
+        }
+
+        .footer-about{
+            width: 40%;
+        }
+        .footer-contact{
+            width: 30%;
+        }
+
+        ul{
+            margin-top: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        ul a{
+            font-size: 20px;
+        }
+        .footer-logo img{
+            max-width: 70%;
+        }
+
+        .footer-about p{
+            font-size: 16px;
+            margin-top: 20px;
+        }
+.social-media{
+    font-size: 24px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+}
+.footer-24-img{
+    margin-top: 20px;
+    img{
+        max-width: 70%;
+    }
+}
+    }
+
+    .bottom-footer{
+        background-color: #000;
+        padding: 10px 0px;
+        color: #fff;
+        text-align: center;
+        font-size: 14px;
+        a{
+            color: #fff;
+        }
+        img{
+            margin-top: 10px;
+            width: 100px;
+        }
     }
 }
