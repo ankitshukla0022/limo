@@ -1,0 +1,365 @@
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 1200px) {
+    p{
+        font-size: 16px;
+    }
+
+    h1{
+        font-size: 60px;
+    }
+
+    h3{
+        font-size: 40px;
+    }
+    h4{
+        font-size: 22px;
+    }
+    header {
+         .bottom-header {
+            nav a {
+                font-size: 16px;
+            }
+            .primary-btn {
+                 a {
+                    button {
+                        padding: 15px 20px;
+                    }
+                }
+            }
+        }
+    }
+    .hero-section {
+        .slider-imgs {
+            .item {
+                img {
+                    width: 100%;
+                    height: 500px;
+                    object-fit: cover;
+                }
+            }
+        }
+    }
+
+    .feature {
+        .main-feature {
+            grid-template-columns: repeat(auto-fill, minmax(217px, 1fr));
+        }
+    }
+    .testimonial {
+        .testimonial-items {
+            width: 85%;
+        }
+    }
+    .footer {
+         .top-footer {
+            .main-top-footer {
+                gap: 20px;
+            }
+        }
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+    h3{
+        font-size: 35px;
+    }
+    header {
+
+        .top-header {
+            padding: 8px 0px;
+            .top-tagline {
+                display: none;
+            }
+        }
+    
+        .bottom-header {
+            padding: 10px 0px;
+
+            .main-bottom-header {
+                align-items: center;
+            }
+
+            .logo {
+                width: 30%;
+            }
+
+            .primary-menu {
+                flex-direction: column;
+                padding: 150px 20px;
+                position: fixed;
+                background: #fff;
+                width: 100%;
+                max-width: 300px;
+                right: -100%;
+                top: 0px;
+                transition: all .4s ease-in;
+                z-index: 1;
+                height: 100vh;
+
+                transition: .5s;
+
+                ul {
+                    flex-direction: column;
+                    gap: 15px;
+                }
+
+                nav {
+                    text-align: center;
+
+                    a {
+                        display: block;
+                        padding: 10px 0px;
+                        font-size: 16px;
+                    }
+
+                    ul a {
+                        color: #474747;
+                    }
+                }
+
+            }
+
+            .primary-menu.active {
+                right: 0%;
+                /* top: 0%; */
+                z-index: 8;
+            }
+
+            .menu-icon {
+                display: block;
+                border: none;
+                background: transparent;
+                width: 40px;
+                z-index: 9;
+                font-size: 24px;
+            }
+
+            .fa-bars {
+                color: #fff;
+            }
+        }
+
+    }
+    .hero-section {
+        .banner-content {
+            padding: 0px;
+            max-width: 100%;
+        }
+    }
+    .feature {
+        h5{
+            font-size: 18px;
+        }
+        .main-feature {
+            grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+        }
+        .item img {
+            width: 60px;
+        }
+       
+    }
+
+    .about-us {
+        .about-us-img {
+            display: none;
+        }
+        .about-us-content {
+            width: 100%;
+            gap: 14px;
+        }
+    }
+
+    .services {
+        h4{
+            font-size: 18px;
+        }
+        .item {
+            padding: 10px;
+        }
+    }
+    .fleet {
+        .main-fleet {
+            grid-template-columns: repeat(auto-fill, minmax(329px, 1fr));
+        }  
+          .second-btn {
+            margin-top: 50px;
+            text-align: center;
+        }
+    }
+
+    .testimonial {
+        display: flex;
+        flex-direction: column;
+        .testimonial-img{
+            width: 100%;
+            padding: 140px 0px;
+        }
+        .testimonial-content{
+            width: 100%;
+        }
+        .testimonial-items{
+            margin: 30px auto 0;
+        }
+    }
+
+    .footer {
+         .top-footer {
+            .main-top-footer {
+                flex-wrap: wrap;
+                text-align: start;
+            }
+            .footer-about {
+                width: 60%;
+            }
+            .footer-contact {
+                width: 50%;
+            }
+        }
+    }
+
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 768px) {
+    h1{
+        font-size: 40px;
+    }
+
+    h3{
+        font-size: 30px;
+    }
+
+    h5{
+        font-size: 20px;
+    }
+
+    .hero-section {
+         .slider-imgs {
+             .item {
+                img {
+                    width: 100%;
+                    height: 350px;
+                    object-fit: cover;
+                }
+            }
+        }
+        .banner-content{
+            gap: 10px;
+        }
+    }
+    .feature {
+        .main-feature {
+            grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
+        }
+    }
+    .fleet {
+        .main-fleet {
+            grid-template-columns: repeat(auto-fill, minmax(229px, 1fr));
+        }
+        .item{
+            img{
+                width: 100%;
+            }
+        }
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 550px) {
+    h1{
+        font-size: 30px;
+    }
+    header {
+        .top-header {
+            .limo-details ul {
+                align-items: start;
+                gap: 0px;
+                flex-direction: column-reverse;
+                font-size: 14px;
+            }
+        }
+        .bottom-header {
+            .logo {
+                width: 50%;
+            }
+        }
+    }
+    .section-padding {
+        padding: 30px 0px;
+    }
+    .hero-section{
+        .banner-content{
+            background: #0000004f;
+
+            p{
+                display: none;
+            }
+        }
+    }
+    .about-us {
+        .about-us-content{
+            gap: 10px;
+        }
+        .about-us-img {
+            display: block;
+            width: 100%;
+        }
+        .main-about-us{
+            flex-direction: column;
+        }
+        .img02 {
+            bottom: -48px;
+        }
+        .call-col {
+            img {
+                width: 40px;
+            }
+        }
+        .number-call {
+            a {
+                font-size: 20px;
+                font-weight: 700;
+                color: #000;
+            }
+        }
+    }
+    .services {
+        .primary-btn {
+            margin-top: 20px;
+        }
+        .main-services {
+            margin-top: 30px;
+        }
+    }
+
+    .footer {
+        .top-footer {
+            padding: 30px 0px;
+            .box{
+                width: 100%;
+            }
+            .footer-about{
+                width: 100%;
+            }
+            .footer-contact{
+                width: 100%;
+            }
+            ul a {
+                font-size: 16px;
+            }
+            ul{
+                gap: 6px;
+            }
+            .social-media{
+                justify-content: start;
+                gap: 15px;
+                font-size: 20px;
+            }
+       }
+   }
+}
+
+
+
+

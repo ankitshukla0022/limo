@@ -33,6 +33,9 @@ $('.main-services').owlCarousel({
         0:{
             items:1
         },
+        500:{
+            items:2
+        },
         600:{
             items:3
         },
@@ -77,4 +80,29 @@ function myFunction() {
     header.classList.remove("sticky");
   }
 
-}
+};
+
+// ========== menu ==========
+
+var faBar = document.querySelector(".menu-icon");
+var faSolid = document.querySelector(".hm");
+// console.log(faSolid);
+var menu = document.querySelector(".primary-menu");
+
+var x = 0;
+// console.log(faBar);
+faBar.addEventListener("click", () => {
+  if (x == 0) {
+    menu.classList.toggle("active");
+
+    faSolid.classList.remove("fa-bars");
+    faSolid.classList.add("fa-xmark");
+    x = 1;
+  } else {
+    menu.classList.toggle("active");
+
+    faSolid.classList.remove("fa-xmark");
+    faSolid.classList.add("fa-bars");
+    x = 0;
+  }
+});
