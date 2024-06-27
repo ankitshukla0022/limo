@@ -5,9 +5,14 @@
     }
 
     h1{
-        font-size: 60px;
-    }
+        font-size: 40px;
 
+    }
+    
+    h3.banner-heading{
+        font-size: 60px;
+
+    }
     h3{
         font-size: 40px;
     }
@@ -62,6 +67,9 @@
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (max-width: 992px) {
     h3{
+        font-size: 35px;
+    }
+    h1{
         font-size: 35px;
     }
     header {
@@ -228,9 +236,12 @@ justify-content: start;
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 768px) {
     h1{
-        font-size: 40px;
-    }
+        font-size: 30px;
 
+    }
+h3.banner-heading{
+    font-size: 40px;
+}
     h3{
         font-size: 30px;
     }
@@ -272,7 +283,7 @@ justify-content: start;
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 550px) {
-    h1{
+    h3.banner-heading{
         font-size: 30px;
     }
     header {
@@ -367,7 +378,15 @@ justify-content: start;
 
 @media only screen and (max-width: 400px){
 h1{
+    font-size: 22px;
+}
+h3.banner-heading{
     font-size: 25px;
+}
+.feature {
+    h5 {
+        font-size: 16px;
+    }
 }
 
 h3{

@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
 *{
     margin: 0px;
     padding: 0px;
@@ -25,13 +26,20 @@ background-color: #ffffff;
 
 
 h1{
-    font-size: 70px;
-    font-family: roboto;
+    font-size: 50px;
+    font-family: "Kalam", cursive;
+    font-weight: 700;
 }
 
+h3.banner-heading{
+    font-size: 70px;
+    font-family: "Kalam", cursive;
+    font-weight: 700;
+}
 h3{
     font-size: 50px;
-    font-family: roboto;
+    font-family: "Kalam", cursive;
+    font-weight: 700;
 
 }
 
