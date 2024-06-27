@@ -1,31 +1,35 @@
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (max-width: 1200px) {
-    p{
+    p {
         font-size: 16px;
     }
 
-    h1{
+    h1 {
         font-size: 40px;
 
     }
-    
-    h3.banner-heading{
+
+    h3.banner-heading {
         font-size: 60px;
 
     }
-    h3{
+
+    h3 {
         font-size: 40px;
     }
-    h4{
+
+    h4 {
         font-size: 22px;
     }
+
     header {
-         .bottom-header {
+        .bottom-header {
             nav a {
                 font-size: 16px;
             }
+
             .primary-btn {
-                 a {
+                a {
                     button {
                         padding: 15px 20px;
                     }
@@ -33,6 +37,7 @@
             }
         }
     }
+
     .hero-section {
         .slider-imgs {
             .item {
@@ -43,20 +48,26 @@
                 }
             }
         }
+
+        .banner-content {
+            max-width: 95%;
+        }
     }
 
-    .feature {
-        .main-feature {
-            grid-template-columns: repeat(auto-fill, minmax(217px, 1fr));
-        }
+    .services-list {
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     }
-    .testimonial {
-        .testimonial-items {
-            width: 85%;
-        }
+
+    .fleet-content {
+        margin-top: -140px;
     }
+
+    .our-fleet {
+        padding: 100px 0px 200px;
+    }
+
     .footer {
-         .top-footer {
+        .top-footer {
             .main-top-footer {
                 gap: 20px;
             }
@@ -66,21 +77,22 @@
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (max-width: 992px) {
-    h3{
+    h3 {
         font-size: 35px;
     }
-    h1{
+
+    h1 {
         font-size: 35px;
     }
+
     header {
 
         .top-header {
-            padding: 8px 0px;
-            .top-tagline {
+            .limo-details {
                 display: none;
             }
         }
-    
+
         .bottom-header {
             padding: 10px 0px;
 
@@ -96,7 +108,7 @@
                 flex-direction: column;
                 padding: 150px 20px;
                 position: fixed;
-                background: linear-gradient(243deg, rgba(61, 16, 47, 1) 27%, rgba(35, 15, 27, 1) 100%);
+                background: linear-gradient(180deg, rgb(18 108 217) 27%, rgb(24 47 80) 100%);
                 width: 100%;
                 max-width: 300px;
                 right: -100%;
@@ -104,15 +116,15 @@
                 transition: all .4s ease-in;
                 z-index: 1;
                 height: 100vh;
-justify-content: start;
+                justify-content: start;
                 transition: .5s;
 
                 ul {
                     flex-direction: column;
                     gap: 15px;
                 }
-                
-                .menu-icon{
+
+                .menu-icon {
                     color: #fff;
                 }
 
@@ -145,193 +157,191 @@ justify-content: start;
                 width: 40px;
                 z-index: 9;
                 font-size: 24px;
-                color: #d4af37;
+                color: #fff;
             }
 
             .fa-bars {
-                color: #d4af37;
+                color: #fff;
             }
         }
 
+        .phone-view{
+            display: block;
+        }
     }
+
     .hero-section {
         .banner-content {
             padding: 0px;
             max-width: 100%;
         }
-    }
-    .feature {
-        h5{
-            font-size: 18px;
+
+        .main-hero-section {
+            position: relative;
+            background: #000;
+            padding: 20px 0px;
         }
-        .main-feature {
-            grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
-        }
-        .item img {
-            width: 60px;
-        }
-       
     }
 
     .about-us {
         .about-us-img {
             display: none;
         }
+
         .about-us-content {
             width: 100%;
             gap: 14px;
         }
     }
 
+    .video {
+        display: flex;
+    }
+
     .services {
-        h4{
+        h4 {
             font-size: 18px;
         }
+
         .item {
             padding: 10px;
         }
     }
-    .fleet {
-        .main-fleet {
-            grid-template-columns: repeat(auto-fill, minmax(329px, 1fr));
-        }  
-          .second-btn {
-            margin-top: 50px;
-            text-align: center;
-        }
-    }
 
-    .testimonial {
-        display: flex;
-        flex-direction: column;
-        .testimonial-img{
-            width: 100%;
-            padding: 140px 0px;
-        }
-        .testimonial-content{
-            width: 100%;
-        }
-        .testimonial-items{
-            margin: 30px auto 0;
-        }
-    }
 
     .footer {
-         .top-footer {
+        .top-footer {
             .main-top-footer {
                 flex-wrap: wrap;
                 text-align: start;
             }
+
             .footer-about {
                 width: 60%;
             }
+
             .footer-contact {
                 width: 50%;
             }
         }
     }
 
+    .our-fleet {
+        padding: 100px 0px 150px;
+    }
+
+    .fleet-content {
+        margin-top: -116px;
+    }
+
 }
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 768px) {
-    h1{
+    h1 {
         font-size: 30px;
 
     }
-h3.banner-heading{
-    font-size: 40px;
-}
-    h3{
+
+    h3.banner-heading {
+        font-size: 40px;
+    }
+
+    h3 {
         font-size: 30px;
     }
 
-    h5{
+    h5 {
         font-size: 20px;
     }
 
     .hero-section {
-         .slider-imgs {
-             .item {
-                img {
-                    width: 100%;
-                    height: 350px;
-                    object-fit: cover;
-                }
-            }
-        }
-        .banner-content{
+
+        .banner-content {
             gap: 10px;
         }
-    }
-    .feature {
-        .main-feature {
-            grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
+
+        .btn-group {
+            display: flex;
+            gap: 15px;
+            flex-direction: column;
+            justify-content: space-between;
         }
     }
-    .fleet {
-        .main-fleet {
-            grid-template-columns: repeat(auto-fill, minmax(229px, 1fr));
-        }
-        .item{
-            img{
-                width: 100%;
-            }
-        }
+
+    .our-fleet {
+        padding: 100px 0px 100px;
+    }
+
+    .fleet-content {
+        margin-top: -70px;
     }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 550px) {
-    h3.banner-heading{
+    h3.banner-heading {
         font-size: 30px;
     }
+
     header {
         .top-header {
-            .limo-details ul {
+            .top-tagline ul {
                 align-items: start;
                 gap: 0px;
                 flex-direction: column-reverse;
                 font-size: 14px;
             }
+            .top-tagline::before{
+                display: none;
+            }
         }
+
         .bottom-header {
             .logo {
                 width: 50%;
             }
         }
     }
+
     .section-padding {
         padding: 30px 0px;
     }
-    .hero-section{
-        .banner-content{
+
+    .hero-section {
+        .banner-content {
             background: #0000004f;
 
-            p{
+            p {
                 display: none;
             }
         }
     }
+
     .about-us {
-        .about-us-content{
+        .about-us-content {
             gap: 10px;
         }
+
         .about-us-img {
             display: block;
             width: 100%;
         }
-        .main-about-us{
+
+        .main-about-us {
             flex-direction: column;
         }
+
         .img02 {
             bottom: -48px;
         }
+
         .call-col {
             img {
                 width: 40px;
             }
         }
+
         .number-call {
             a {
                 font-size: 20px;
@@ -340,79 +350,123 @@ h3.banner-heading{
             }
         }
     }
-    .services {
-        .primary-btn {
-            margin-top: 20px;
-        }
-        .main-services {
-            margin-top: 30px;
-        }
+
+    .services-list {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
     }
+
 
     .footer {
         .top-footer {
             padding: 30px 0px;
-            .box{
+
+            .box {
                 width: 100%;
             }
-            .footer-about{
+
+            .footer-about {
                 width: 100%;
             }
-            .footer-contact{
+
+            .footer-contact {
                 width: 100%;
             }
+
             ul a {
                 font-size: 16px;
             }
-            ul{
+
+            ul {
                 gap: 6px;
             }
-            .social-media{
+
+            .social-media {
                 justify-content: start;
                 gap: 15px;
                 font-size: 20px;
             }
-       }
-   }
-}
-
-@media only screen and (max-width: 400px){
-h1{
-    font-size: 22px;
-}
-h3.banner-heading{
-    font-size: 25px;
-}
-.feature {
-    h5 {
-        font-size: 16px;
-    }
-}
-
-h3{
-    font-size: 25px;
-}
-.container{
-    padding: 0px 15px;
-}
-.testimonial {
-    .testimonial-items {
-        width: 95%;
-    }
-    .item {
-         .google-img {
-            img {
-                width: 140px;
-            }
         }
-        .t-bottom {
+    }
+
+    .feature {
+        .img-box {
             img {
-                width: 60px;
+                max-width: 100%;
             }
         }
     }
+
+    .our-fleet {
+        padding: 50px 0px 69px;
+    }
+
+    .fleet-content {
+        margin-top: -60px;
+        padding-bottom: 50px;
+    }
 }
+
+@media only screen and (max-width: 400px) {
+    h1 {
+        font-size: 22px;
+    }
+
+    h3.banner-heading {
+        font-size: 25px;
+    }
+
+    .feature {
+        h5 {
+            font-size: 16px;
+        }
+    }
+
+    h3 {
+        font-size: 25px;
+    }
+    p{
+        font-size: 14px;
+    }
+
+    .container {
+        padding: 0px 15px;
+    }
+    .divider {
+        margin: 0px;
+    }
+
+    .services-list {
+        grid-template-columns: repeat(auto-fill, minmax(134px, 1fr));
+        grid-gap: 8px;
+        padding: 10px;
+        .item {
+            .img-caption {
+                font-size: 14px;
+            }
+        }
+    }
+    .fleet-content {
+        margin-top: -40px;
+        padding-bottom: 30px;
+    }
+    .hero-section {
+         .btn-group {
+            .btn {
+                padding: 8px 10px;
+                font-size: 16px;
+            }
+        }
+    }
+    header {
+         .bottom-header {
+            .logo {
+                width: 45%;
+            }
+            .whatsappimg {
+                img {
+                    max-width: 116px;
+                }
+            }
+        }
+    }
 }
-
-
-

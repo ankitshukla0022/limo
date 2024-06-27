@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 *{
     margin: 0px;
     padding: 0px;
@@ -27,18 +28,19 @@ background-color: #ffffff;
 
 h1{
     font-size: 50px;
-    font-family: "Kalam", cursive;
+     font-family: "Oswald", sans-serif;
     font-weight: 700;
 }
 
 h3.banner-heading{
     font-size: 70px;
-    font-family: "Kalam", cursive;
+     font-family: "Oswald", sans-serif;
     font-weight: 700;
+    text-shadow: rgb(0, 0, 0) 2px 2px 6px;
 }
 h3{
     font-size: 50px;
-    font-family: "Kalam", cursive;
+     font-family: "Oswald", sans-serif;
     font-weight: 700;
 
 }
@@ -56,7 +58,7 @@ font-size: 24px;
 
 h6{
     font-size: 20px;
-    color: #d4af37;
+    color: #000;
     letter-spacing: 4px;
     text-transform: uppercase;
 }
@@ -88,15 +90,14 @@ img{
 
 .primary-btn{
     a{
-        button{
-            padding: 15px 30px;
+            padding: 12px 30px;
             font-size: 18px;
             border: none;
-            background: #d4af37;
+            background: #073c8b;
             color: #fff;
             cursor: pointer;
             transition: all .4s linear;
-        }
+            display: inline-block;
     }
 }
 
@@ -127,5 +128,12 @@ img{
       a {
         color: var(--black);
       }
+    }
+  }
+
+  .divider{
+    margin: 15px 0px;
+    img{
+        max-width: 500px;
     }
   }
