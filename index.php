@@ -6,89 +6,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Majesty Limousine Services</title>
 
-  <!-- ========= style ========= -->
+<?php include('includes/top-header.php') ?>
 
-  <link rel="stylesheet" href="assets/css/global.css" />
-  <link rel="stylesheet" href="assets/css/style.css" />
-  <link rel="stylesheet" href="assets/css/responsive.css" />
-  <link rel="stylesheet" href="assets/css/all.min.css" />
-  <link rel="stylesheet" href="assets/css/owl.carousel.min.css" />
-  <link rel="stylesheet" href="assets/css/owl.theme.default.css" />
-  <link rel="stylesheet" href="assets/css/aos.css" />
 
-  <link rel="shortcut icon" href="assets/upload/favicon.png" type="image/x-icon">
 </head>
 
 <body>
   <!-- ========== header ============ -->
-  <header>
-    <div class="top-header">
-      <div class="container">
-        <div class="main-top-header">
-          <div class="top-tagline">
-            <ul>
-              <li>
-                <a href="mailto:majestylimousine@gmail.com"><i class="fa-solid fa-envelope"></i>
-                  majestylimousine@gmail.com</a>
-              </li>
-              <li>
-                <a href="tel:+1780-599-1222"><i class="fa-solid fa-phone"></i> (780) 599-1222</a>
-              </li>
-            </ul>
-          </div>
-          <div class="limo-details">
-            <ul>
-              <li><a href="javascript:void(0)"><i class="fa-regular fa-snowflake"></i> Get Quote</a></li>
-              <li><a href="javascript:void(0)"><i class="fa-solid fa-car-side"></i> Book Ride</a></li>
-
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="bottom-header">
-      <div class="container">
-        <div class="main-bottom-header">
-          <div class="logo">
-            <a href="javascript:void(0)">
-              <img src="assets/upload/logo.png" alt="logo" />
-            </a>
-          </div>
-          <div class="whatsappimg phone-view">
-            <a href="https://api.whatsapp.com/send/?phone=%2B17805991222&text=hi..&type=phone_number&app_absent=0" target="_blank">
-              <img src="assets/upload/icon/whatsapp.png" alt="icon">
-            </a>
-          </div>
-          <div class="menu-icon">
-            <i class="fa-solid fa-bars hm"></i>
-          </div>
-    
-          <div class="primary-menu">
-            <nav>
-              <ul>
-                <li><a href="javascript:void(0)">Home</a></li>
-                <li><a href="javascript:void(0)">About Us</a></li>
-                <li><a href="javascript:void(0)">Services</a></li>
-                <li><a href="javascript:void(0)">Service Area</a></li>
-                <li><a href="javascript:void(0)">Our Fleet</a></li>
-                <li><a href="javascript:void(0)">Contact Us</a></li>
-              </ul>
-            </nav>
-
-            <div class="whatsappimg">
-              <a href="https://api.whatsapp.com/send/?phone=%2B17805991222&text=hi..&type=phone_number&app_absent=0" target="_blank">
-                <img src="assets/upload/icon/whatsapp.png" alt="icon">
-              </a>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </div>
-
-
-  </header>
+<?php include('includes/header.php') ?>
 
   <!-- ========= banner ========= -->
 
@@ -269,77 +194,9 @@
 
 
   <!-- ====== footer ===== -->
-  <div class="footer">
+   
+<?php include('includes/footer.php') ?>
 
-    <div class="top-footer">
-      <div class="container">
-        <div class="main-top-footer">
-          <div class="quick-link box">
-            <h5>Quick Links</h5>
-
-            <ul>
-              <li><a href="javascript:void(0)">Home</a></li>
-              <li><a href="javascript:void(0)">About Us</a></li>
-              <li><a href="javascript:void(0)">Services</a></li>
-              <li><a href="javascript:void(0)">Service Area</a></li>
-              <li><a href="javascript:void(0)">Our Fleets</a></li>
-              <li><a href="javascript:void(0)">Contact Us</a></li>
-
-            </ul>
-
-          </div>
-
-          <div class="footer-about">
-            <h5>Why Choose Us</h5>
-            <p>At Majesty Limousine Services, we offer unparalleled luxury, reliability, and exceptional customer
-              service. Our professional chauffeurs and premium fleet ensure a stylish and comfortable journey for every
-              occasion. Choose us for a first-class travel experience that exceeds your expectations every time.</p>
-
-            <div class="social-media">
-              <a href="javascript:void(0)"><i class="fa-brands fa-facebook-f"></i></a>
-              <a href="javascript:void(0)"><i class="fa-brands fa-instagram"></i></a>
-            </div>
-          </div>
-
-          <div class="footer-contact">
-            <h5>Contact Information</h5>
-
-            <ul>
-              <li><a href="tel:+17805991222">(780) 599-1222</a></li>
-              <li><a href="mailto:majestylimousine@gmail.com">majestylimousine@gmail.com</a></li>
-            </ul>
-
-            <div class="footer-24-img">
-              <img src="assets/upload/other/24-img.png" alt="img">
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </div>
-
-    <div class="bottom-footer">
-      <div class="container">
-        <script type="text/javascript">
-          document.write(new Date().getFullYear())
-        </script> Majesty Limousine Services. All rights reserved. <br><a
-          href="https://www.wxperts.co/website-development.php" target="_blank">Website
-          Development</a> | <a href="https://www.wxperts.co/" target="_blank">Hosting</a> | <a
-          href="https://www.wxperts.co/search-engine-optimization.php" target="_blank">SEO</a> | <a
-          href="https://www.wxperts.co/digital-marketing.php" target="_blank">Digital
-          Marketing</a><br><a href="https://www.wxperts.co/" target="_blank"><img
-            src="assets/upload/wxperts_powerdby.jpg" alt="wxperts"></a>
-      </div>
-    </div>
-
-  </div>
-
-  <!-- =========== javascript ========= -->
-
-  <script src="assets/js/jquery.min.js"></script>
-  <script src="assets/js/owl.carousel.min.js"></script>
-  <script src="assets/js/aos.js"></script>
-  <script src="assets/js/main.js"></script>
 </body>
 
 </html>
