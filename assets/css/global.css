@@ -137,3 +137,15 @@ img{
         max-width: 500px;
     }
   }
+
+
+  /* ============= inner page ========= */
+
+  .inner-banner{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../upload/background/inner-banner.jpg);
+    text-align: center;
+    color: #fff;
+    padding: 100px 0px;
+    background-position: center;
+    background-size: cover;
+  }

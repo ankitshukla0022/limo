@@ -101,7 +101,7 @@
         <div class="img-box">
           <img src="assets/upload/gallery/5.jpg" alt="img">
         </div>
-        <div class="img-caption">Birthdays</div>
+        <div class="img-caption">Birthday</div>
       </div>
       <div class="item">
         <div class="img-box">
