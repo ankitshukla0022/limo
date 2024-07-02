@@ -39,7 +39,7 @@
 
             
       <div class="primary-btn">
-        <a href="javascript:void(0)">Book A Ride</a>
+        <a href="book-rides.php">Book A Ride</a>
       </div>
         </div>
     </div>

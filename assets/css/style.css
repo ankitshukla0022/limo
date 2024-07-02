@@ -691,3 +691,60 @@ header{
       }
     }
   }
+
+  /* ======== book ride ========= */
+
+  .book-a-ride{
+
+    background: url(../upload/background/white-painted-wall-texture-background.jpg);
+    background-position: center;
+    background-size: cover;
+    .main-book-ride{
+        width: 80%;
+        margin: 0px auto;
+        background-color: #efefef;
+        padding: 30px;
+        border-radius: 10px; 
+        box-shadow: 1px 1px 11px #ccccccc9;
+    }
+    .box, .box-2 {
+        margin: 10px 0px;
+    }
+    .box-2 {
+        display: flex;
+        gap: 20px;
+        width: 100%;
+    }
+    .box-2-item {
+        width: 50%;
+    }
+
+    form{
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-size: 18px;
+        }
+        input {
+            width: 100%;
+            border: none;
+            padding: 12px;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        select {
+            width: 100%;
+            border: none;
+            padding: 12px;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        input[type="submit"] {
+            width: 170px;
+            background-color: #2689ef;
+            color: #fff;
+            display: inline-block;
+            margin-top: 20px;
+        }
+    }
+  }

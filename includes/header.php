@@ -9,14 +9,14 @@
                 majestylimousine@gmail.com</a>
             </li>
             <li>
-              <a href="tel:+1780-599-1222"><i class="fa-solid fa-phone"></i> (780) 599-1222</a>
+              <a href="tel:+17805991222"><i class="fa-solid fa-phone"></i> (780) 599-1222</a>
             </li>
           </ul>
         </div>
         <div class="limo-details">
           <ul>
-            <li><a href="javascript:void(0)"><i class="fa-regular fa-snowflake"></i> Get Quote</a></li>
-            <li><a href="javascript:void(0)"><i class="fa-solid fa-car-side"></i> Book Ride</a></li>
+            <li><a href="contact-us.php"><i class="fa-regular fa-snowflake"></i> Get Quote</a></li>
+            <li><a href="book-rides.php"><i class="fa-solid fa-car-side"></i> Book Ride</a></li>
 
           </ul>
         </div>
@@ -28,7 +28,7 @@
     <div class="container">
       <div class="main-bottom-header">
         <div class="logo">
-          <a href="javascript:void(0)">
+          <a href="./">
             <img src="assets/upload/logo.png" alt="logo" />
           </a>
         </div>
@@ -60,6 +60,7 @@
                     <li><a href="special-nights-out.php">Special Nights Out</a></li>
                     <li><a href="sporting-events.php">Sporting Events</a></li>
                     <li><a href="concerts.php">Concerts</a></li>
+                    <li><a href="hourly-limo.php">Hourly Limo</a></li>
                   </ul>
                 </div>
               </li>

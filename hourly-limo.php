@@ -20,7 +20,7 @@
 
     <section class="inner-banner">
       <div class="container">
-        <h3>Special Nights Out Services</h3>
+        <h3>Hourly Limo Service</h3>
       </div>
     </section>
 
@@ -28,14 +28,14 @@
 <div class="container">
     <div class="main-service-page-section">
         <div class="service-img">
-            <img src="assets/upload/service/Special.jpg" alt="img">
+            <img src="assets/upload/service/Hourly.jpg" alt="img">
         </div>
         <div class="service-content">
-            <p>Make every night out extraordinary with Majesty Limousine Services! Whether it's a romantic dinner, a concert, or a night on the town with friends, our luxury transportation adds elegance and convenience to your plans. Our fleet features top-of-the-line vehicles equipped with comfort and style in mind, ensuring a memorable journey from start to finish. </p>
+            <p>Experience the ultimate in flexibility and luxury with Majesty Limousine Services' hourly limo rentals. Whether you need transportation for business meetings, city tours, or special events, our professional chauffeurs are at your service. Enjoy the convenience of a tailored schedule that fits your needs. </p>
 
-            <p>Enjoy amenities like plush seating, ambient lighting, and complimentary beverages, all while our professional chauffeurs navigate the city with precision and professionalism. </p>
+            <p>Our premium fleet of limousines offers comfort, elegance, and top-of-the-line amenities. From plush seating to state-of-the-art entertainment systems, we ensure a stylish and enjoyable ride. Our vehicles are meticulously maintained to provide a seamless and luxurious experience.</p>
 
-            <p>Customize your experience with flexible scheduling and personalized service to suit your preferences. At Majesty Limousine Services, we're committed to enhancing your special nights out with unparalleled comfort and sophistication.</p>
+            <p>Booking our hourly limo services means personalized attention and impeccable customer care. We handle all the details, allowing you to relax and enjoy the journey.</p>
 
             
       <div class="primary-btn">

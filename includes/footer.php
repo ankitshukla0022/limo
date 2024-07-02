@@ -7,12 +7,11 @@
         <h5>Quick Links</h5>
 
         <ul>
-          <li><a href="javascript:void(0)">Home</a></li>
-          <li><a href="javascript:void(0)">About Us</a></li>
-          <li><a href="javascript:void(0)">Services</a></li>
-          <li><a href="javascript:void(0)">Service Area</a></li>
-          <li><a href="javascript:void(0)">Our Fleets</a></li>
-          <li><a href="javascript:void(0)">Contact Us</a></li>
+          <li><a href="./">Home</a></li>
+          <li><a href="about-us.php">About Us</a></li>
+          <li><a href="wedding.php">Services</a></li>
+          <li><a href="our-fleets.php">Our Fleets</a></li>
+          <li><a href="contact-us.php">Contact Us</a></li>
 
         </ul>
 

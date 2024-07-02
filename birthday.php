@@ -20,7 +20,7 @@
 
     <section class="inner-banner">
       <div class="container">
-        <h3>Birthday Services</h3>
+        <h3>Birthday Parties Services</h3>
       </div>
     </section>
 
@@ -39,7 +39,7 @@
 
             
       <div class="primary-btn">
-        <a href="javascript:void(0)">Book A Ride</a>
+        <a href="book-rides.php">Book A Ride</a>
       </div>
         </div>
     </div>

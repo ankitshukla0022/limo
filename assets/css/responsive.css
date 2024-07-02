@@ -255,6 +255,39 @@
         font-size: 20px;
     }
 
+    header {
+        .bottom-header {
+             .primary-menu {
+                .menu-drop-down {
+                    ul {
+                        gap: 0px;
+                    }
+                }
+        
+            }
+        }
+         nav {
+            .menu-drop-down {
+                position: relative;
+                /* top: 0; */
+                background-color: #2689ef;
+                width: 250px;
+                padding: 15px;
+                box-shadow: 1px 1px 10px #cccccc56;
+                transition: all .2s ease-in;
+                opacity: 0;
+                display: none;
+                overflow: scroll;
+                height: 300px;
+
+                ul{
+                    gap: 0px;
+                }
+            }
+
+        }
+    }
+
     .hero-section {
 
         .banner-content {
